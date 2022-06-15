@@ -1,0 +1,56 @@
+
+
+
+
+@font-face {
+    font-family: textos ;
+    src: url(../fuentes/Gotham-Light.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: textos ;
+    src: url(../fuentes/Gotham-Bold.otf);
+    font-weight: 700;  
+}
+
+@font-face {
+    font-family: athena ;
+    src: url(../fuentes/Athena.ttf);
+    font-weight: 200; 
+}
+
+
+
+body { 
+background-image: url(../fondo/portfolio.png);
+background-size: 90%;
+background-repeat: no-repeat;
+color:rgb(23, 23, 23);
+}
+
+.columnas { display: flex;}
+
+.columna2 { padding-top: 10%; width:30%; padding-right: 5%;}
+
+
+h1 {font-family: 'athena'; font-size: 12.5em; font-weight: 200; 
+line-height: 120px;
+text-transform: uppercase;
+margin: 0;
+}
+
+h2 {font-family: 'athena';font-size: 3.1em ; font-weight: 200; }
+
+h3 {font-family: 'textos'; font: size 1.2em;font-weight: 100;}
+
+p {font-family:'textos'; font-size: 1em; text-transform: uppercase;
+font-weight: 700; color:rgb(23, 23, 23); text-decoration: none } 
+p:hover { color:rgb(255, 60, 0)}
+
+a {font-family:'textos'; font-size: 1em; text-transform: uppercase;font-weight: 700; color:rgb(23, 23, 23); text-decoration: none; border-bottom: 1px solid; padding-bottom: 10px; display: block ;} 
+    a:hover { color:rgb(255, 60, 0);}
+
+
+
+@media (max-width: 768px){body { font-size: 60%;}}
